@@ -1,0 +1,23 @@
+{
+  "name": "esphome.bluetooth-proxy",
+  "version": "25.8.2",
+  "home_assistant_domain": "esphome",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32-S3",
+      "ota": {
+        "path": "25.8.2/seeed-esp32-poe-esp32.ota.bin",
+        "md5": "3739dc9ada14ea8db7e173c67d50538f",  
+        "summary": "## What's Changed\r\n* Bump esphome/workflows from 2025.4.0 to 2025.8.0 by @dependabot[bot] in https://github.com/esphome/bluetooth-proxies/pull/126\r\n* Bump esphome/workflows from 2025.8.0 to 2025.8.1 by @dependabot[bot] in https://github.com/esphome/bluetooth-proxies/pull/127\r\n* Use esp32 variant instead of board by @jesserockz in https://github.com/esphome/bluetooth-proxies/pull/128\r\n* Add issue template by @jesserockz in https://github.com/esphome/bluetooth-proxies/pull/129\r\n* Bump to ESPHome 2025.8.1 by @jesserockz in https://github.com/esphome/bluetooth-proxies/pull/130\r\n* Bump ESPHome version to 2025.8.2 by @bdraco in https://github.com/esphome/bluetooth-proxies/pull/131\r\n\r\n\r\n**Full Changelog**: https://github.com/esphome/bluetooth-proxies/compare/25.8.1...25.8.2",
+        "release_url": "https://github.com/esphome/bluetooth-proxies/releases/tag/25.8.2"
+      },
+      "parts": [
+        {
+          "path": "25.8.2/seeed-esp32-poe-esp32.factory.bin",
+          "offset": 0
+        }
+      ]
+    }
+  ]
+}
